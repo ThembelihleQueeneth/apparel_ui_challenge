@@ -1,0 +1,16 @@
+.button{
+    width: 20%;
+    height: 57px;
+    background-color:  hsl(0, 80%, 86%);
+    border-radius: 30px;
+    margin: -80px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: hsl(0, 74%, 74%);
+    font-size: 26px;
+}

@@ -1,0 +1,16 @@
+footer{
+    position: absolute;
+    background-color: hsl(0, 36%, 70%);
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    
+}
+footer p{
+    margin-top: 60px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
