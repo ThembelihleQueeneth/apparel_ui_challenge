@@ -9,7 +9,7 @@
   display: flex;
   flex: 1;
   height: 100vh;
-  font-family: "Josefin Sans", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .logo {
@@ -18,7 +18,7 @@
 
 .heading1 {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 100;
   color: hsl(0, 36%, 70%);
   letter-spacing: 6px;
 }
@@ -28,7 +28,7 @@
   font-size: 60px;
   letter-spacing: 6px;
   font-weight: 100;
-  margin: -35px 0 0 0;
+  margin-top: -10px;
 }
 
 .description {

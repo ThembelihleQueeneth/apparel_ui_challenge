@@ -2,13 +2,15 @@ import React from "react";
 import styles from "./Landing.module.css";
 import CustomButton from "../Button/Button"; 
 import Right from "../RightSide/Right"; 
+import logo from "../../assets/logo.svg";
 
 function Landing() {
   return (
     <main className={styles.container}>
       <div className={styles.left}>
         <div className={styles.logo}>
-          <img src="" alt="Logo" />
+            <img src={logo} alt="Logo" />
+          
         </div>
 
         <div className={styles.content}>
