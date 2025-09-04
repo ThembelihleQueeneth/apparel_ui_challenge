@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Landing.module.css"
 import CustomButton from "../Button/Button"; //importing a button 
+import Right from "../RightSide/Right"; //import Right side of the page
 
 function Landing() {
     return(
@@ -20,15 +21,15 @@ function Landing() {
                     </p>
                     <form action="#">
                         <input type="email" name="email" id="email" placeholder="Email Address " required/>
-                        <CustomButton></CustomButton>
+                        <CustomButton text=">" onClick={()=>{
+                            console.log("Email submitted")
+                        }}></CustomButton>
                         <p id="error-msg">Please provide a valid email</p>
                     </form>
                 </div>
 
             </div>
-            <div className="right">
-  
-            </div>
+            <Right />
 
 
         </main>

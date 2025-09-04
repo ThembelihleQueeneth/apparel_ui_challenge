@@ -1,76 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-    
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .container {
-    display: flex;
-    flex: 1;
-    position: relative;
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
 }
-body{
-    max-width: 100%;
-    height: 100vh;
-    font-family: 'Josefin Sans', sans-serif;
-    position: fixed;
-    
+
+.logo {
+  margin: 50px 0 100px 100px;
 }
-.logo{
-    margin: 50px 0 100px 100px;
+
+.heading1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 6px;
 }
-h1{
-    font-size: 50px;
-    font-weight: 500;
-    color: hsl(0, 36%, 70%);
-    letter-spacing: 6px;
+
+.heading2,
+.heading3 {
+  font-size: 60px;
+  letter-spacing: 6px;
+  font-weight: 100;
+  margin: -35px 0 0 0;
 }
-h2, h3{
-    font-size: 60px;
-    letter-spacing: 6px;
-    font-weight: 100;
-    margin: -35px 0 0 0;
+
+.description {
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+  margin-bottom: 30px;
 }
-.description{
-    font-size: 16px;
-    color: hsl(0, 36%, 70%);
-    margin-bottom: 30px;
-}
+
 input[type="email"] {
-    width: 80%;
-    height: 50px;
-    border: 2px solid  hsl(0, 93%, 68%);
-    border-radius: 50px;
-    padding: 25px;
-}
-.error-icon{
-    margin: -45px;
+  width: 80%;
+  height: 50px;
+  border: 2px solid hsl(0, 93%, 68%);
+  border-radius: 50px;
+  padding: 0 25px;
 }
 
-.error-msg{
-    color:hsl(0, 93%, 68%);
-    font-size: 15px;
-    margin: 10px 10px 100px;
-}
-.content{
-    margin-left: 100px;
-    margin-right: 100px;
-   padding: auto;
-}
-.left, .right {
-    position: relative;
-    flex: 1;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.errorMsg {
+  color: hsl(0, 93%, 68%);
+  font-size: 15px;
+  margin: 10px 10px 100px;
 }
 
-.left{
-    background-image: url('./assets/bg-pattern-desktop.svg');
-    
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.right{
-    background-image: url('./assets/hero-desktop.jpg');
+
+.left,
+.right {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left {
+  background-image: url(".../assets/bg-pattern-desktop.svg");
+}
+
+.right {
+  background-image: url(".../assets/hero-desktop.jpg");
 }
