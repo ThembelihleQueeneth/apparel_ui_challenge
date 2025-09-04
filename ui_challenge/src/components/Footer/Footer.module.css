@@ -1,16 +1,16 @@
-footer{
-    position: absolute;
-    background-color: hsl(0, 36%, 70%);
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-    text-align: center;
-    
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: hsl(0, 36%, 70%);
+  margin-top: 20px;
 }
-footer p{
-    margin-top: 60px;
-    color: white;
+
+.attribution a {
+  color: hsl(0, 93%, 68%);
+  text-decoration: none;
+  font-weight: 600;
 }
-footer a{
-    text-decoration: none;
+
+.attribution a:hover {
+  text-decoration: underline;
 }
