@@ -1,16 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Landing.module.css";
 import CustomButton from "../Button/Button"; 
 import Right from "../RightSide/Right"; 
 import logo from "../../assets/logo.svg";
+import bg from "../../assets/bg-pattern-desktop.svg";
 
 function Landing() {
+  const [email, setEmail] = useState("");          
+  const [error, setError] = useState(false);       
+
+  // simple email   validation
+  const validateEmail = (email: string) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!validateEmail(email)) {
+      setError(true);
+    } else {
+      setError(false);
+      console.log("Email submitted:", email);
+      
+    }
+  };
+
   return (
-    <main className={styles.container}>
+    <main
+      className={styles.container}
+      style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
       <div className={styles.left}>
         <div className={styles.logo}>
-            <img src={logo} alt="Logo" />
-          
+          <img src={logo} alt="Logo" />
         </div>
 
         <div className={styles.content}>
@@ -24,23 +47,25 @@ function Landing() {
             and our launch deals.
           </p>
 
-          <form onSubmit={(e) => e.preventDefault()}>
+          <form onSubmit={handleSubmit}>
             <input 
               type="email" 
               name="email" 
               id="email" 
               placeholder="Email Address" 
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required 
             />
 
             <CustomButton 
               text=">" 
-              onClick={() => {
-                console.log("Email submitted");
-              }} 
+              onClick={handleSubmit} 
             />
 
-            <p className={styles.errorMsg}>Please provide a valid email</p>
+            {error && (
+              <p className={styles.errorMsg}>Please provide a valid email</p>
+            )}
           </form>
         </div>
       </div>

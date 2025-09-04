@@ -64,10 +64,4 @@ input[type="email"] {
   background-position: center;
 }
 
-.left {
-  background-image: url(".../assets/bg-pattern-desktop.svg");
-}
 
-.right {
-  background-image: url(".../assets/hero-desktop.jpg");
-}
