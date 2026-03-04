@@ -5,16 +5,16 @@ It mimics a fashion brand's upcoming website, featuring a clean layout, an email
 
 ---
 
-## 🚀 Features
-- ⚛️ Built with **React + TypeScript**
-- 🎨 Custom **CSS styling** (no frameworks like Tailwind or Bootstrap)
-- 📧 Email subscription form with **validation & error handling**
-- 📱 **Responsive layout** (desktop & mobile friendly)
-- ✨ Modern and minimal UI
+##  Features
+-  Built with **React + TypeScript**
+-  Custom **CSS styling** (no frameworks like Tailwind or Bootstrap)
+-  Email subscription form with **validation & error handling**
+-  **Responsive layout** (desktop & mobile friendly)
+-  Modern and minimal UI
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **React **
 - **TypeScript**
 - **CSS3** (for styling)
