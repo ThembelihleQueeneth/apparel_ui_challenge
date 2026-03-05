@@ -7,12 +7,20 @@ It mimics a fashion brand's upcoming website, featuring a clean layout, an email
 
 ##  Features
 -  Built with **React + TypeScript**
--  Custom **CSS styling** (no frameworks like Tailwind or Bootstrap)
+-  Custom **CSS styling** 
 -  Email subscription form with **validation & error handling**
 -  **Responsive layout** (desktop & mobile friendly)
 -  Modern and minimal UI
 
 ---
+
+## How to run the app
+```
+  git clone repo: 
+  cd ui-challenge
+  npm install
+  npm run dev
+```
 
 ##  Tech Stack
 - **React **
