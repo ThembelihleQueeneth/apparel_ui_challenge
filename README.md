@@ -16,14 +16,15 @@ Perfect as a **frontend UI challenge** or a starting point for a real product la
 *  Custom **CSS styling**
 *  Email subscription form with **validation**
 *  Error handling for invalid inputs
-* 📱 **Responsive design** (mobile & desktop)
-* 🧼 Minimal and modern UI
+*  **Responsive design** (mobile & desktop)
+*  Minimal and modern UI
 
 ---
 
-## 🖼 Preview
+## Preview
 
-<img width="1900" height="919" alt="coming-soon-preview" src="https://github.com/user-attachments/assets/preview-image-placeholder"/>
+![wearecomming](https://github.com/user-attachments/assets/3ebf0fa6-cfd5-45fa-9ad0-e3d3625e8c31)
+
 
 ---
 
